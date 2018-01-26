@@ -1,0 +1,13 @@
+diff --git a/arch/arm/boot/dts/am33xx.dtsi b/arch/arm/boot/dts/am33xx.dtsi
+index 1ebcc6f..788dde6 100644
+--- a/arch/arm/boot/dts/am33xx.dtsi
++++ b/arch/arm/boot/dts/am33xx.dtsi
+@@ -422,7 +422,7 @@
+ 		};
+ 
+ 		timer7: timer@4804a000 {
+-			compatible = "ti,am335x-timer";
++			compatible = "sk,timer-dev";
+ 			reg = <0x4804a000 0x400>;
+ 			interrupts = <95>;
+ 			ti,hwmods = "timer7";
